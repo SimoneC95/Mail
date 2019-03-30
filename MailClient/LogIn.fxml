@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane id="GUISignIn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+   </padding>
+   <bottom>
+      <Button fx:id="ButtonLogInId" mnemonicParsing="false" onAction="#ButtonLogIn" text="Log In" BorderPane.alignment="CENTER" />
+   </bottom>
+   <top>
+      <Label text="LOG IN" textAlignment="CENTER" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <TextField fx:id="TextFieldLogInId">
+         <BorderPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </BorderPane.margin>
+      </TextField>
+   </center>
+</BorderPane>
