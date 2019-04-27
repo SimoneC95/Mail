@@ -1,0 +1,12 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+#buttonWrite {
+    -fx-background-color: #4286f4;
+    -fx-text-fill: #fff;
+}
